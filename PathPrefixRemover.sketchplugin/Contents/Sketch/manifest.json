@@ -1,0 +1,23 @@
+{
+    "name" : "Path Prefix Remover",
+    "identifier" : "org.projectrhinestone.sketch.pathprefixremover",
+    "version" : "1.0",
+    "description" : "Remove path prefix for symbol instances.",
+    "authorEmail" : "elethomhunter@gmail.com",
+    "author" : "Elethom Hunter",
+    "commands" : [
+        {
+            "script" : "remove-path.js",
+            "handler" : "onRun",
+            "shortcut" : "cmd ctrl r",
+            "name" : "Remove Path Prefix",
+            "identifier" : "remove-path-prefix"
+        }
+    ],
+    "menu": {
+        "isRoot": true,
+        "items": [
+            "remove-path-prefix"
+        ]
+    }
+}
